@@ -1,0 +1,80 @@
+.rating {
+        overflow: hidden;
+        display: inline-block;
+    }
+
+.rating input {
+	display: none;
+  }
+   
+.rating label {   
+    display: block;
+	float: right;
+    width: 16px;
+    height: 16px;        
+	background-image: url("index.png");
+    }
+    
+	.rating label:hover,
+    .rating label:hover ~ label,
+    .rating input:checked ~ label {
+        background-image: url("index1.png");
+    }
+	
+	.progress-bar {
+  position: relative;
+  width: 211px;
+  height: 13px;
+  border-radius: 6px;
+  
+  box-shadow: inset 0px 2px 6px rgb( 238, 238, 238 );
+  border: 2px solid rgb( 238, 238, 238 );
+  border-bottom:none;
+}
+
+.progress {
+  display: block;
+  width: 42px;
+  height: 100%;
+  border-radius: 6px;
+  background-image: -moz-linear-gradient( 90deg, rgb(40,191,20) 0%, rgb(139,218,26) 14%, rgb(40,191,20) 49%, rgb(171,255,88) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(40,191,20) 0%, rgb(139,218,26) 14%, rgb(40,191,20) 49%, rgb(171,255,88) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(40,191,20) 0%, rgb(139,218,26) 14%, rgb(40,191,20) 49%, rgb(171,255,88) 100%);  
+}
+.clear{
+	padding:30px;
+}
+.label {
+    position: absolute;
+     
+    width:100%;
+    height: 100%;
+    font-size: 9px;
+	 font-weight: bold;
+    font-family: "Verdana";
+    color: rgb( 0, 0, 0 );
+    text-align: center;
+    
+}
+
+
+.button {
+  font-size: 11px;
+  font-weight: bold;
+  font-family: "Verdana";
+  color: rgb( 0, 0, 0 );
+  text-indent:0;
+  text-align: center;
+  text-shadow: 0px 1px 0px rgb( 255, 255, 255 );
+   text-decoration: none;
+  border-radius: 6px;
+  background-image: -moz-linear-gradient(bottom, rgb(226,226,226) 30%, rgb(242,242,242) 70%);
+  background-image: -webkit-linear-gradient(bottom, rgb(226,226,226) 30%, rgb(242,242,242) 70%);
+  background-image: -ms-linear-gradient(bottom, rgb(226,226,226) 30%, rgb(242,242,242) 70%);
+  background-image: linear-gradient(bottom,rgb(226,226,226) 30%, rgb(242,242,242) 70%);
+ box-shadow: 0px 2px 6px #ccc;
+  border: 1px solid #ccc;
+    padding: 5 15px;
+    margin: 2px 0;
+}
+
