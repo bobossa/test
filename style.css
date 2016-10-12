@@ -12,13 +12,13 @@
 	float: right;
     width: 16px;
     height: 16px;        
-	background-image: url("index.png");
+	background-image: url("Star_off.png");
     }
     
 	.rating label:hover,
     .rating label:hover ~ label,
     .rating input:checked ~ label {
-        background-image: url("index1.png");
+        background-image: url("star_on.png");
     }
 	
 	.progress-bar {
